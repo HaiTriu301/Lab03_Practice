@@ -3,7 +3,8 @@ import UserProfile from './UserProfile';
 import Counter from "./Counter.jsx";
 import Login from "./Login.jsx";
 import Card from "./Card.jsx"; // Import Card mới tạo
-import Accordion from "./Accordion.jsx"; // Import Accordion mới tạo
+import Accordion from "./Accordion.jsx";
+import TodoApp from "./TodoApp.jsx"; // Import Accordion mới tạo
 
 function App() {
     const user1 = {
@@ -42,6 +43,9 @@ function App() {
             <hr/>
             {/* Exercise 7.2: Thêm Accordion để minh họa Lifting State Up */}
             <Accordion />
+
+            <hr/>
+            <TodoApp />
         </div>
     );
 }
